@@ -11,6 +11,11 @@ variable "gcp_region" {
   default     = "unset"
 }
 
+variable "gcp_regional" {
+  description = "Create a regional GKE cluster"
+  default     = false
+}
+
 variable "gcp_project" {
   description = "GCP project name"
 }
